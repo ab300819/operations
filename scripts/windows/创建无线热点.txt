@@ -1,0 +1,7 @@
+netsh wlan set hostednetwork mode=allow
+netsh wlan set hostednetwork ssid=Think key=12345678
+netsh wlan start hostednetwork
+
+
+
+显示无线网络信息命令：netsh wlan show hostednetwork 
